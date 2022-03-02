@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "CalSans"
+}
+
+@font-face {
+    font-family: "CalSans";
+    src: url("assets/CalSans-SemiBold.ttf");
+}
+
+.fullheight {
+    height: 100vh;
+    width: 100vw;
+}
+
+.firstdiv {
+    background-image: url("assets/vizz_bg.png");
+    background-size: cover;
+    background-position: bottom right;
+}
+
+.leftcenter {
+    display: flex;
+    align-items: center;
+}
+
+.fullheight > div {
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+.firstdiv > div > h1, .firstdiv > div > h3 {
+    color: white;
+}
+
+underline {
+    text-decoration: underline 20px white;
+}
+
+.inlink {
+    text-decoration: underline 5px #ACCEFF !important;
+    color: #ACCEFF;
+    animation: 0.5s;
+    display: inline-block;
+}
+
+.inlink:hover {
+    color: #ddebff;
+}
+
+.footer {
+    background: #ffeeee;
+    width: 100vw;
+    height: fit-content;
+    padding: 50px;
+}
